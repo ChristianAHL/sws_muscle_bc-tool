@@ -1,4 +1,22 @@
 # sws_muscle_bc-tool
+## IO Table
+IN1.2\
+HIGH - 下顎を開く指令. Command to open the lower winding guide jaw.\
+LOW - なし。None.
+
+IN2.2\
+HIGH - バンド装着一連動作 バンド成形開始➡バンド端挿入➡
+バンド締付➡バンド切断/廃棄. Start the band attachment cycle  (band forming, band insertion, band tensioning, band cutoff disposal)\
+LOW - なし。None.
+
+IN3.2\
+HIGH - リセットサイクル開始 バンドホルダーを原点に戻す. Start the resetting cycle (Reset band holder to home position)\
+LOW - なし。None.
+
+IN4.2\
+HIGH - 下顎を閉じる指令. Command to close the lower winding guide jaw\
+LOW - なし。None.
+
 ## Changelog
 260715
 1. k_parameters.txt\
