@@ -29,7 +29,7 @@ LOW - 下顎が「閉」状態. Signals the PLC that the lower winding guide jaw
 260715
 1. k_parameters.txt\
 1.a. Disable auto homing functions of motors 1, 2, 3 after machine power up. This should reduce risk of band holder crashing into the lower jaw mount.\
-1.b. Set logic bank cycle time to 100 ms for all motors. An increased polling rate decreases the likelihood of missing signals from the PLC and lower jaw sensor.
+1.b. Set logic bank cycle time to 100 ms for all motors. An increased polling rate decreases the likelihood of missing signals from the PLC and lower jaw sensor.\
 1.c. Slow down all motor speed settings for now to 70% of actual for safety. Set by parameter k6.
 
 2. logic_banks.txt\
