@@ -17,14 +17,6 @@ IN4.2\
 HIGH - 下顎を閉じる指令. Command to close the lower winding guide jaw\
 LOW - なし。None.
 
-OUT1.2\
-HIGH - IN1.2、IN2.2、IN3.2またはIN4.2 に割付られた動作完了. The operation commanded by IN1.2, IN2.2, IN3.2, or IN4.2 is completed. \
-LOW - IN1.2、IN2.2、IN3.2またはIN4.2に割付られた動作実行中. The operation commanded by IN1.2, IN2.2, IN3.2, or IN4.2 is currently being executed.
-
-OUT2.2\
-HIGH - 下顎が「開」状態. Signals the PLC that the lower winding guide jaw is OPEN\
-LOW - 下顎が「閉」状態. Signals the PLC that the lower winding guide jaw is CLOSED
-
 ## Changelog
 260715
 1. k_parameters.txt\
