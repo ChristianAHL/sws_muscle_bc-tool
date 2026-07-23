@@ -18,6 +18,9 @@ HIGH - 下顎を閉じる指令. Command to close the lower winding guide jaw\
 LOW - なし。None.
 
 ## Changelog
+260723-1706
+1. After IN2.2 process is completed, require the PLC to send a RESET command at IN3.2.
+
 260715
 1. k_parameters.txt\
 1.a. Disable auto homing functions of motors 1, 2, 3 after machine power up. This should reduce risk of band holder crashing into the lower jaw mount.\
