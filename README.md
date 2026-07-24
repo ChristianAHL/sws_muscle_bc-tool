@@ -18,6 +18,11 @@ HIGH - 下顎を閉じる指令. Command to close the lower winding guide jaw\
 LOW - なし。None.
 
 ## Changelog
+260724-1356
+1. Changed RESET behavior - require reset after band attachment procedure.
+2. Reduce waiting time of homing process when transitioning from motor 1 to motor 2.
+3. Added some logic banks to improve safe mode stability.
+
 260723-1706
 1. After IN2.2 process is completed, require the PLC to send a RESET command at IN3.2.
 
